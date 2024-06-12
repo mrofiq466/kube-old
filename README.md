@@ -21,7 +21,7 @@ EOF
 sudo sysctl --system
 ```
 
-2. Install Container Runtime
+2. Install Containerd Runtime
 ```
 sudo apt-get update && sudo apt-get install -y containerd
 sudo mkdir -p /etc/containerd
@@ -112,3 +112,4 @@ after that you can
 ## Reference
 * https://github.com/kubernetes-sigs/cri-tools/tags
 * https://kubernetes.io/releases/download/
+* https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.17.md#v1171
